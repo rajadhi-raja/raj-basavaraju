@@ -1,6 +1,6 @@
 # Rajashekara Basavaraju — identity portfolio
 
-Static GitHub Pages site for Raj (Senior IAM / SailPoint Engineer, Atlanta, GA).
+Static GitHub Pages site for Raj (Senior SailPoint ISC Engineer, Atlanta, GA).
 
 Live URL: [https://srinikvs.github.io/raj-basavaraju/](https://srinikvs.github.io/raj-basavaraju/)
 
@@ -33,7 +33,7 @@ Only these details are shown (no contact form):
 
 - Email: `cy.rs@yahoo.com`
 - Phone: `+1-716-471-7777`
-- LinkedIn: <https://www.linkedin.com/in/raj-iam-etl-dwh>
+- LinkedIn: <https://www.linkedin.com/in/iam-raj-iga-sme>
 - Location: Atlanta, GA
 
 ## Replace the profile photo

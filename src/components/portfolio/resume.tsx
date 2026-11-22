@@ -43,10 +43,7 @@ export function ResumeOverlay({
           </button>
         </div>
 
-        <p className="mb-3 max-w-[60ch] text-sm leading-relaxed text-muted">{PROFILE.positioning}</p>
-        <div className="mb-5">
-          <TodoFlag detail="full resume text" />
-        </div>
+        <p className="mb-5 max-w-[60ch] text-sm leading-relaxed text-muted">{PROFILE.positioning}</p>
 
         <p className="mb-5 flex flex-wrap gap-x-4 gap-y-1 text-[13px] text-muted">
           <a href={`mailto:${PROFILE.email}`} className="inline-flex items-center gap-1.5 font-semibold text-ink">

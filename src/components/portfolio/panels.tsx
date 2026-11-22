@@ -30,9 +30,6 @@ export function OverviewPanel({ onNavigate }: { onNavigate: Nav }) {
       <Surface>
         <SectionTitle>How to read this</SectionTitle>
         <SectionIntro>{PROFILE.summary}</SectionIntro>
-        <div className="mb-4">
-          <TodoFlag detail="titles, dates, bullets, and source list" />
-        </div>
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {EXPLORE.map((lane) => (
             <LaneCard
@@ -59,7 +56,7 @@ export function ImpactPanel({ onNavigate }: { onNavigate: Nav }) {
       <Surface>
         <SectionTitle id="impact-title">Identity Impact</SectionTitle>
         <SectionIntro>
-          Hands-on SailPoint at GDIT/CDC: IIQ 2021–2022 and ISC 2023–present.
+          Hands-on SailPoint ISC and IdentityIQ at GDIT – CDC.gov, backed by 18+ years in IAM, security, and compliance.
         </SectionIntro>
         <div className="grid gap-3">
           {STORIES.map((story) => (
@@ -97,8 +94,7 @@ export function ExperiencePanel() {
       <Surface>
         <SectionTitle id="roles-title">Experience</SectionTitle>
         <SectionIntro>
-          GDIT – CDC.gov through BBVA Compass, M&T, Fifth Third, and JP Morgan. Titles, dates, and bullets that
-          are not on the resume source are marked.
+          GDIT – CDC.gov (WTCHP) through BBVA Compass Bank, M&T Bank, Fifth Third Bank, and JPMorgan.
         </SectionIntro>
         <div className="grid gap-3">
           {ROLES.map((role) => (
@@ -176,7 +172,7 @@ export function PracticePanel() {
       <Surface>
         <SectionTitle id="practice-title">Practice</SectionTitle>
         <SectionIntro>
-          SailPoint IIQ/ISC first, then resume-listed capabilities only.
+          IAM and technical skills, SailPoint ISC/IIQ first.
         </SectionIntro>
         <div className="grid gap-3 sm:grid-cols-2">
           {SKILLS.map((group) => (
